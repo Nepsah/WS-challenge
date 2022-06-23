@@ -1,0 +1,75 @@
+.card-car-add {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
+.form-car {
+    color: #fff;
+    background-color: #333;
+    padding: 1rem;
+    margin: 1rem auto;
+    width: auto;
+    border-radius: 12px;
+    display: inline-block;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+
+}
+
+h5 {
+    margin: 10px;
+}
+
+.card-car-add button {
+    font: inherit;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: 1px solid #40005d;
+    background-color: #40005d;
+    color: white;
+    border-radius: 12px;
+    margin: 25px 15px;
+
+}
+
+.card-car-add button:hover,
+.card-car-add button:active {
+    background-color: #510674;
+    border-color: #510674;
+}
+
+.card-car-add button.alternative {
+    color: #220131;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.card-car-add button.alternative:hover,
+.card-car-add button.alternative:active {
+    background-color: #ddb3f8;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    
+}
+
+.form-col {
+    margin: 0 1rem;
+}
+
+@media screen and (max-width: 960px) {
+    .card-car-add {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .card-car-add {
+        width: 100%;
+        min-width: 0;
+    }
+}
