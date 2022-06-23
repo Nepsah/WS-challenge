@@ -1,5 +1,5 @@
 # WS-Project
-Primeiro, clone o repositório;
+* Primeiro, clone o repositório;
 
 * Depois, instale as dependências
 ```npm install```
