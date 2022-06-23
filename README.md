@@ -8,4 +8,4 @@
 ```json-server --watch src/data/db.json --port 3003```
 
 * Rode o projeto;
-```npm run```
+```npm start```
